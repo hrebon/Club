@@ -1,0 +1,15 @@
+.card{
+    width: 300px;
+    text-align: center;
+
+}
+.card img{
+    width: 80%;
+    padding: 10px;
+    margin-left: 25px;
+}
+.club{
+    padding: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}

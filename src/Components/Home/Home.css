@@ -1,0 +1,17 @@
+.main-container{
+    margin-left: 130px;
+}
+.image-tag{
+    background-image: url(../../image/image.jpg);
+    height: 250px;
+    
+}
+h1{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    color: white;
+}
+.home{
+    background-color: aqua;
+}

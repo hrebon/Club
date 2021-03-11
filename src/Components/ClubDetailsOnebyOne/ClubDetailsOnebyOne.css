@@ -1,0 +1,38 @@
+.image-box img {
+    width: 35%;
+    position: absolute;
+    right: 10px;
+    
+}
+.box{
+    display: flex;
+    margin-top:5px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    width: 71%;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 200px;
+    
+}
+.details{
+    width: 70%;
+    position: absolute;
+    top: 260px;
+    left: 200px;
+}
+
+.text{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.banner img{
+    width: 100%;
+}
+.details img{
+    width: 50px;
+    margin-left: 20px;
+    
+}
