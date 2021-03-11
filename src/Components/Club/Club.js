@@ -3,6 +3,9 @@ import React from 'react';
 import { Card, Button,Container,Row,Col } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import './Club.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {  faArrowRight } from '@fortawesome/free-solid-svg-icons'
+
 
 
 const Club = (props) => {
@@ -26,7 +29,7 @@ const Club = (props) => {
                      <Card.Text>
                          Sports type: Football
                      </Card.Text>
-                     <Button onClick={() => exploreHandler(idTeam)} variant="primary">Explore</Button>
+                     <Button onClick={() => exploreHandler(idTeam)} variant="primary">Explore <FontAwesomeIcon icon={faArrowRight} /></Button>
                  </Card.Body>
              </Card>
             
