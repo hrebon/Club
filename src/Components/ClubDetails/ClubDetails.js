@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useHistory, useParams } from 'react-router';
+import {  useParams } from 'react-router';
 import ClubDetailsOnebyOne from '../ClubDetailsOnebyOne/ClubDetailsOnebyOne';
 
 const ClubDetails = () => {
@@ -12,7 +12,7 @@ const ClubDetails = () => {
         .then(res => res.json())
         .then(data => setInfo(data.teams));
 
-    }, [])
+    }, [id])
     return (
         <div>
            {

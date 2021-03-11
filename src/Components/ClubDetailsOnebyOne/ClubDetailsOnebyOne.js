@@ -2,7 +2,7 @@ import React from 'react';
 import './ClubDetailsOnebyOne.css';
 import image from '../../team-tracker-main/Photo/male.png';
 import image2 from '../../team-tracker-main/Photo/female.png';
-import { Card, Button, Container, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 import logo1 from '../../team-tracker-main/Icon/Facebook.png';
 import logo2 from '../../team-tracker-main/Icon/Twitter.png';
 import logo3 from '../../team-tracker-main/Icon/YouTube.png';
@@ -14,7 +14,7 @@ const ClubDetailsOnebyOne = (props) => {
     const gender = strGender;
     let gender2;
     console.log(gender);
-    if(gender == 'Male'){
+    if(gender === 'Male'){
         gender2 = <img src={image} alt=""/>
     }
     else{

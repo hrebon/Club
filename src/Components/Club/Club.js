@@ -1,6 +1,6 @@
-import { List } from 'rc-field-form';
+
 import React from 'react';
-import { Card, Button,Container,Row,Col } from 'react-bootstrap';
+import { Card, Button } from 'react-bootstrap';
 import { useHistory } from 'react-router';
 import './Club.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

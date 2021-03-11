@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Club from '../Club/Club';
 import './Home.css';
-import { Container, Row,Col } from 'react-bootstrap';
+import {  Row,Col } from 'react-bootstrap';
 
 
 const Home = () => {
